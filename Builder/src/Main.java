@@ -7,6 +7,7 @@ public class Main {
         Car car = carBuilder.getResult();
         director.constructorSportCar(manualBuilder);
         Manual manual = manualBuilder.getResult();
+
         System.out.println(manual.toString());
         System.out.println(car.toString());
     }
